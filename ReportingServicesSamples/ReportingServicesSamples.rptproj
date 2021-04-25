@@ -50,6 +50,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Report Include="001-ListOfCustomers.rdl" />
+    <Report Include="001-ListOfCustomersOutput.png">
+      <MimeType>image/x-png</MimeType>
+    </Report>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
 </Project>
