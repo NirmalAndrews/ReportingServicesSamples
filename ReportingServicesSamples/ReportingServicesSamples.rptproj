@@ -49,8 +49,23 @@
     <Reports>@(Report)</Reports>
   </PropertyGroup>
   <ItemGroup>
+    <DataSet Include="CustomersSharedDataset.rsd" />
+    <DataSet Include="ProductsSharedDataset.rsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <DataSource Include="NorthwindSharedDatasource.rds" />
+  </ItemGroup>
+  <ItemGroup>
     <Report Include="001-ListOfCustomers.rdl" />
     <Report Include="001-ListOfCustomersOutput.png">
+      <MimeType>image/x-png</MimeType>
+    </Report>
+    <Report Include="002-ListOfProductsWiithTableDataRegionSharedDatasourceAndSharedDataset.rdl" />
+    <Report Include="002-ListOfProductsWiithTableDataRegionSharedDatasourceAndSharedDatasetOutput.png">
+      <MimeType>image/x-png</MimeType>
+    </Report>
+    <Report Include="003-CustomerInfoUsingListDataRegion.rdl" />
+    <Report Include="003-CustomerInfoUsingListDataRegionOutput.png">
       <MimeType>image/x-png</MimeType>
     </Report>
   </ItemGroup>
