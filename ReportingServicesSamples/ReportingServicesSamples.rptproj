@@ -53,6 +53,7 @@
     <DataSet Include="ProductsSharedDataset.rsd" />
   </ItemGroup>
   <ItemGroup>
+    <DataSource Include="AdventureWorks2016SharedDatasource.rds" />
     <DataSource Include="NorthwindSharedDatasource.rds" />
   </ItemGroup>
   <ItemGroup>
@@ -74,6 +75,10 @@
     <Report Include="004-LetterUsingListDataRegion.rdl" />
     <Report Include="005-ReportUsingEmbeddedImage.rdl" />
     <Report Include="005-ReportUsingEmbeddedImageOutput.pdf">
+      <MimeType>application/pdf</MimeType>
+    </Report>
+    <Report Include="006-DataboundImageReport.rdl" />
+    <Report Include="006-DataboundImageReportOutput.pdf">
       <MimeType>application/pdf</MimeType>
     </Report>
   </ItemGroup>
