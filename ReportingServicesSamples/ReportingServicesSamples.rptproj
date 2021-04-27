@@ -72,6 +72,10 @@
       <MimeType>application/pdf</MimeType>
     </Report>
     <Report Include="004-LetterUsingListDataRegion.rdl" />
+    <Report Include="005-ReportUsingEmbeddedImage.rdl" />
+    <Report Include="005-ReportUsingEmbeddedImageOutput.pdf">
+      <MimeType>application/pdf</MimeType>
+    </Report>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
 </Project>
