@@ -63,12 +63,12 @@
             <TablixBody>
               <TablixColumns>
                 <TablixColumn>
-                  <Width>7.67708in</Width>
+                  <Width>7.72916in</Width>
                 </TablixColumn>
               </TablixColumns>
               <TablixRows>
                 <TablixRow>
-                  <Height>2.36458in</Height>
+                  <Height>2.8125in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -310,8 +310,8 @@
                               <rd:DefaultName>Textbox1</rd:DefaultName>
                               <Top>0.10417in</Top>
                               <Left>0.11458in</Left>
-                              <Height>2.15625in</Height>
-                              <Width>7.44792in</Width>
+                              <Height>2.48958in</Height>
+                              <Width>7.5625in</Width>
                               <Style>
                                 <Border>
                                   <Style>None</Style>
@@ -353,9 +353,9 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <Top>0.25917in</Top>
-            <Left>0.2175in</Left>
-            <Height>2.36458in</Height>
-            <Width>7.67708in</Width>
+            <Left>0.16542in</Left>
+            <Height>2.8125in</Height>
+            <Width>7.72916in</Width>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -363,7 +363,7 @@
             </Style>
           </Tablix>
         </ReportItems>
-        <Height>3.23958in</Height>
+        <Height>3.1875in</Height>
         <Style />
       </Body>
       <Width>8.44792in</Width>

@@ -68,10 +68,10 @@
     <Report Include="003-CustomerInfoUsingListDataRegionOutput.png">
       <MimeType>image/x-png</MimeType>
     </Report>
-    <Report Include="004-LetterUsingListDataRegion.rdl" />
-    <Report Include="004-LetterUsingListDataRegionOutput.pdf">
+    <Report Include="004-LetterUsingListDataRegion.pdf">
       <MimeType>application/pdf</MimeType>
     </Report>
+    <Report Include="004-LetterUsingListDataRegion.rdl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
 </Project>
