@@ -81,6 +81,22 @@
     <Report Include="006-DataboundImageReportOutput.pdf">
       <MimeType>application/pdf</MimeType>
     </Report>
+    <Report Include="007-ReportWithSimpleExpressionsAndBuiltInFunctions.rdl" />
+    <Report Include="007-ReportWithSimpleExpressionsAndBuiltInFunctionsOutput.pdf">
+      <MimeType>application/pdf</MimeType>
+    </Report>
+    <Report Include="008-ReportWithGroupingAndSubTotal.rdl" />
+    <Report Include="008-ReportWithGroupingAndSubTotalOutput.pdf">
+      <MimeType>application/pdf</MimeType>
+    </Report>
+    <Report Include="009-ReportWithRunningTotal.rdl" />
+    <Report Include="009-ReportWithRunningTotalOutput.png">
+      <MimeType>image/x-png</MimeType>
+    </Report>
+    <Report Include="010-ReportWithBuiltInFields.rdl" />
+    <Report Include="010-ReportWithBuiltInFieldsOutput.TIF">
+      <MimeType>image/tiff</MimeType>
+    </Report>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
 </Project>
