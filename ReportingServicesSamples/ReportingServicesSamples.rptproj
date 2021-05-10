@@ -97,6 +97,19 @@
     <Report Include="010-ReportWithBuiltInFieldsOutput.TIF">
       <MimeType>image/tiff</MimeType>
     </Report>
+    <Report Include="011-SimpleParameterizedReport.rdl" />
+    <Report Include="012-ParameterWithDropDownSuggestionsReport.rdl" />
+    <Report Include="013-MultiValuedParameterReport.rdl" />
+    <Report Include="014-DateParameterReport.rdl" />
+    <Report Include="015-UnboundParameterReport.rdl" />
+    <Report Include="016-ParameterizedSorting.rdl" />
+    <Report Include="017-ParameterizedSortingWithDynamicSQL.rdl" />
+    <Report Include="018-CascadingParameters.rdl" />
+    <Report Include="019-BooleanParameters.rdl" />
+    <Report Include="020-InteractiveSorting.rdl" />
+    <Report Include="021-InteractiveSortingWithGroups.rdl" />
+    <Report Include="022-DrillDownReport.rdl" />
+    <Report Include="023-DynamicColumnVisibility.rdl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
 </Project>
