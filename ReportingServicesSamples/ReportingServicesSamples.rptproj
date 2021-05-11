@@ -110,6 +110,10 @@
     <Report Include="021-InteractiveSortingWithGroups.rdl" />
     <Report Include="022-DrillDownReport.rdl" />
     <Report Include="023-DynamicColumnVisibility.rdl" />
+    <Report Include="024-ConditionalFormatting.rdl" />
+    <Report Include="025-DocumentMapFunctionality.rdl" />
+    <Report Include="026-RepeatingAndFreezingColumnHeaders.rdl" />
+    <Report Include="027-ReportWithBookMarkAction.rdl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
 </Project>
