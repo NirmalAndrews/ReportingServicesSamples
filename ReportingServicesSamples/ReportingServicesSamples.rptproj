@@ -114,6 +114,10 @@
     <Report Include="025-DocumentMapFunctionality.rdl" />
     <Report Include="026-RepeatingAndFreezingColumnHeaders.rdl" />
     <Report Include="027-ReportWithBookMarkAction.rdl" />
+    <Report Include="028-GotoReportActionAndUrlAction.rdl" />
+    <Report Include="029-UsingEmbeddedHTMLFeature.rdl" />
+    <Report Include="030-BasicMatricReportUsingWizard.rdl" />
+    <Report Include="031-MatrixReportAddingRowGroups.rdl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
 </Project>
